@@ -19,7 +19,7 @@ public class Dropdowns_Intro {
     @AfterMethod
     public void tearDown() throws InterruptedException{
         Thread.sleep(2000);
-        driver.close();
+       // driver.close();
     }
 
     @BeforeMethod

@@ -152,5 +152,3 @@ How do we actually select an option from DROPDOWN?
 		-> This will deselect all the options that are selected.
  */
 
-public class TodaysNotes {
-}

@@ -39,6 +39,7 @@ public class AlertsPractices {
         //2- Use "alert" to accept the alert.
         alert.accept();
 
+
         //locating result web element
         WebElement resultText = driver.findElement(By.xpath("//p[@id='result']"));
         //WebElement resultText2 = driver.findElement(By.id("result"));
@@ -62,6 +63,8 @@ public class AlertsPractices {
 
         //Asserting the result text is displayed
         Assert.assertTrue(resultText.isDisplayed());
+
+
 
 
     }

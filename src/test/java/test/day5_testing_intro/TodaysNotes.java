@@ -48,9 +48,14 @@ ex:
 				<a href="https://www.google.com"> Click here to go Google </a>
 			</div>
 		</div
+
 -->	driver.findElement(By.tagName("a")).getText();
-		returns : Click here to go Google
-	<-----finds the webelement--------><--returns attribute value->
+
+
+// import org.testng.annotations.AfterMethod;
+//import org.testng.annotations.BeforeMethod;
+// import org.testng.annotations.Test;returns : Click here to go Google
+	//<-----finds the webelement--------><--returns attribute value->
 --> driver.findElement(By.tagName("a")).getAttribute("href");
 		returns : https://www.google.com
 --> What do we have to use to locate web elements with findElement method?
@@ -346,6 +351,10 @@ ANNOTATIONS:
 	  ex:
 	  	-> closing quitting driver
 	  	-> closing browser
+
+
+
+
+
  */
-public class TodaysNotes {
-}
+
